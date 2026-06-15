@@ -6,17 +6,29 @@
   <style>
     body { font-family: sans-serif; max-width: 900px; margin: auto; padding: 2rem; }
     img { width: 100%; margin-bottom: 2rem; border: 1px solid #ddd; }
-    h2 { color: #333; }
+    h2 { color: #000000; }
+    h1 { text-align: center; }
   </style>
 </head>
 <body>
-  <h1>Methylation Data Results</h1>
+  <header>Elza Bersanoukaeva, M1 Bioinformatics and Computational Biology Student at UCA in Nice, France.<br />
+  Team Metabolism and Epigenetics, led by Romain Barres at the IPMC, Valbonne, France.<br />
+  Supervised by Marie-Charlotte Dumargne, PhD</header>
 
-  <h2>Annotation unprocessed group</h2>
-  <img src="unp_combined_eng.svg" alt="TopGO Annotation - Unprocessed Group">
+  <h1>Methylation Data Analysis Results</h1>
 
-  <h2>Annotation processed group</h2>
-  <img src="pro_combined_eng.svg" alt="TopGO Annotation - Processed Group">
+  <h2>TopGO annotation of the unprocessed group</h2>
+  <figure><img src="unp_combined_eng.svg" alt="TopGO Annotation - Unprocessed Group">
+  <figcaption>Functional annotation of DMR associated genes in the unprocessed group.<br /> 
+    TopGO enriched terms are grouped depending on their parent term after redundancy reduction.<br />
+    The color indicates methylation profile of associated genes and numbers represent the count of genes per category.<br />
+    Here, only the most representative terms are displayed.</figcaption></figure>
+
+  <h2>TopGO annotation of the ultra-processed group</h2>
+  <figure><img src="pro_combined_eng.svg" alt="TopGO Annotation - Processed Group">
+  <figcaption>Functional annotation of DMR associated genes in the processed group. <br />
+    TopGO enriched terms are grouped depending on their parent term after redundancy reduction.<br />
+    The color indicates methylation profile of associated genes and numbers represent the count of genes per category.</figcaption></figure>
 
 </body>
 </html>
